@@ -1,0 +1,11 @@
+package web.dao;
+
+import web.model.Car;
+
+import java.util.List;
+
+public interface Dao {
+    List<Car> creatList();
+
+    List<Car> getCarsAmount(int count);
+}
