@@ -8,8 +8,7 @@ import java.util.List;
 
 @Repository
 public class DaoImpl implements Dao {
-    @Override
-    public final List<Car> creatList() {
+    private List<Car> creatList() {
         List<Car> carList = new ArrayList<>();
         carList.add(new Car("BMW", "Black", 1111));
         carList.add(new Car("Kia", "Yellow", 2222));
